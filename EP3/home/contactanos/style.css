@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrar todo el texto */
+    background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.title-container {
+    padding: 20px;
+}
+
+.title-container h1 {
+    color: red;
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: red;
+    transform: scale(1.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    background: linear-gradient(to bottom right, #f0f0f0, #e0e0e0, #d0d0d0, #c0c0c0, #b0b0b0, #a0a0a0);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 900px; /* Ajusta este valor para hacer más estrecha la sección */
+    margin: 0 auto;
+}
+.contact-info, .contact-form {
+    width: 45%; /* Reduce el ancho de las secciones */
+}
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+.contact-info h2, .contact-form h2 {
+    color: #a52a2a;
+}
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+.contact-form input, .contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form button {
+    background-color: #a52a2a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #8b0000;
+}
+.map-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.map-container iframe {
+    width: 80%;
+    max-width: 600px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.label {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+footer .social-icons img {
+    width: 200px; /* Cambia el tamaño de la imagen a 100px */
+    height: auto;
+    margin-top: -70px;
+}

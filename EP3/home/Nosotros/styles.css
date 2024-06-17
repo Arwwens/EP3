@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    background-color: #f0f0f0; 
+    background: linear-gradient(to bottom right, #f0f0f0, #e0e0e0, #d0d0d0, #c0c0c0, #b0b0b0, #a0a0a0);
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.title-container {
+    padding: 20px;
+}
+
+.title-container h1 {
+    color: red;
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: red;
+    transform: scale(1.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr 1fr auto;
+    grid-template-areas:
+        "header header"
+        "main sidebar"
+        "images sidebar"
+        "footer footer";
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.header {
+    grid-area: header;
+    background-color: #8b0808;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.main {
+    grid-area: main;
+}
+
+.about h2 {
+    color: #f4a200;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.sidebar img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.images {
+    grid-area: images;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.images figure {
+    margin: 0;
+    border: 2px solid #f4a200;
+}
+
+.images img {
+    width: 100%;
+}
+
+
+#PIE {
+    text-align: center;
+    padding: 20px;
+    margin-top: -500px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+#PIE .social-icons img {
+    width: 200px; 
+    height: auto;
+    margin-top: -3000px;
+}
